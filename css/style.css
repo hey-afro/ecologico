@@ -64,6 +64,16 @@ main>ul>li{
     font-family: var(--fpadrao);
     margin: 8px;
 }
+#image{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 70%;
+}
+#image>img{
+    margin: 5px;
+    max-width: 60%;
+}
 footer{
     text-align: center;
     padding: 5px;
