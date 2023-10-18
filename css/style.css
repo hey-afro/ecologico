@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.389);
+}
+
+:root{
+
+    --vc:#62943A;
+    --vmc:#9AC775;
+    --v:#366112;
+    --cv:#DDFAC5;
+
+    --fpadrao: 'Roboto Mono', monospace;
+}
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: auto;
+    background-color: var(--cv);
+}
+header{
+    width: 100%;
+    height: 4em;
+    padding-top: 15px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #62943a 60%, #366112a9);
+}
+header>h1{
+    color: white;
+    font-size: 40px;
+    font-family: monospace, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 15px;
+    width: 97,5%;
+    min-height: 50em;
+    align-items: center;
+    text-align: center;
+    background-color: #366112a9;
+}
+main>h1{
+    margin: 15px 0px;
+    text-decoration-line: overline;
+}
+main>p{
+    font-family: var(--fpadrao);
+    text-align: center;
+    max-width: 50%;
+}
+main>ul{
+    background-color: #ddfac51a;
+    list-style: none;
+}
+main>ul>li{
+    font-family: var(--fpadrao);
+    margin: 8px;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    max-width: 100%;
+    min-height: 25px;
+}
+footer>p>a{  
+    text-decoration: none;
+    color: black;
+}
+footer>p>a:hover{
+    color: red;
+    text-decoration: none;
+}
