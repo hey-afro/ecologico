@@ -54,7 +54,7 @@ main>h1{
 main>p{
     font-family: var(--fpadrao);
     text-align: center;
-    max-width: 50%;
+    max-width: 70%;
 }
 main>ul{
     background-color: #ddfac51a;
@@ -72,7 +72,7 @@ main>ul>li{
 }
 #image>img{
     margin: 5px;
-    max-width: 60%;
+    max-width: 70%;
 }
 footer{
     text-align: center;
